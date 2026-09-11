@@ -1,0 +1,9 @@
+1.Logowanie - mysql -uroot -p
+
+2.Wybór bazy
+
+3.Tworzenie bazy
+
+4.Tworzenie tabeli
+
+5.Pokazywanie zawartości tabeli
