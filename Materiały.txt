@@ -7,3 +7,9 @@
 4.Tworzenie tabeli: create table nazwatabeli;
 
 5.Pokazywanie zawartości tabeli: describe nazwatebeli;
+
+6.Komentarz w SQL /*komentarz*/
+
+7.Pomiędzy /*Between*/;
+
+8.
