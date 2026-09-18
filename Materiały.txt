@@ -12,4 +12,8 @@
 
 7.Pomiędzy /*Between*/;
 
-8.
+8.UPDATE `auto` SET rocznik = 2000 WHERE auto_id = 1;
+
+9.INSERT INTO `auto` (rocznik) VALUES (2000);
+
+10.DELETE FROM `auto` WHERE auto_id = 42;
