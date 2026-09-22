@@ -17,3 +17,18 @@
 9.INSERT INTO `auto` (rocznik) VALUES (2000);
 
 10.DELETE FROM `auto` WHERE auto_id = 42;
+
+SELECT * FROM 4ggr1.auto LIMIT 25; 
+SELECT marka,rocznik,cena FROM 4ggr1.auto; 
+SELECT auto_id,rocznik FROM 4ggr1.auto WHERE typ="kombi"; 
+SELECT auto_id,rocznik,paliwo,kolor FROM 4ggr1.auto WHERE typ="kombi"AND paliwo="D" AND kolor="zielony"; 
+SELECT auto_id,rocznik,paliwo,kolor FROM 4ggr1.auto WHERE typ="kombi"AND paliwo="D" AND kolor="zielony" AND cena>=6000; 
+SELECT * FROM auto WHERE paliwo="D" or paliwo="G" LIMIT 3; 
+SELECT * FROM auto WHERE paliwo="D" or paliwo="G" ORDER BY cena; najnizsza > najwyzsza
+SELECT * FROM auto WHERE paliwo="D" or paliwo="G" ORDER BY cena DESC; najwyzsza > najnizsza 
+SELECT * FROM auto WHERE (paliwo="D" or paliwo="G") AND kolor="żółty" ORDER BY cena DESC; w () bierze w 1 kolejności 
+SELECT * FROM auto WHERE (cena >=10000 AND cena <=20000) ORDER by cena DESC; 
+SELECT * FROM `auto` WHERE uwagi LIKE 'ga%'; żeby z uwag wyciagnac żeby auto było garażowane ga % to dalsze znaki 
+SELECT AVG(cena) AS srednia_samochodu FROM auto; wyliczyć srednia cene auta DS208# 
+SELECT typ FROM auto WHERE typ in ('sedan'); in pokazuje kolumny które sa sedanem 
+SELECT rocznik FROM auto WHERE rocznik in (1992, 1994);
