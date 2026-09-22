@@ -1,0 +1,10 @@
+03.Wyświetl uczniów mieszkających w łodzi 
+04.Wyświetl uczniów mieszkających w Łodzi których hobby to programowanie 
+05.Wyświetl uczniów mieszkających w łodzi i w Warszawie
+06.Wyświetl uczniów z trzech wskazanych miejscowości 
+07.Wyświetl uczniów którzy nie mieszkają w Warszawie ani Krakowie
+08.Wyświetl uczniów których naziwsko zaczyna się na litere K
+09.Wyświetl uczniów urodzonych w latach 2007-2008
+10.Wyświetl wszystkie miejscowości bez powtórzeń 
+11.Wyświetl hobby, które wystepuja u co najmniej 10 uczniów
+12.Policz wszystkich uczniów z łodzi
