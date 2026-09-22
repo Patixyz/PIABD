@@ -34,3 +34,7 @@ SELECT typ FROM auto WHERE typ in ('sedan'); in pokazuje kolumny które sa sedan
 SELECT rocznik FROM auto WHERE rocznik in (1992, 1994);
 SELECT * FROM `uczniowie` WHERE miejscowosc IN ('Łódź','Warszawa','Kraków');
 SELECT * FROM `uczniowie` WHERE miejscowosc NOT IN ('Kraków','Warszawa');
+SELECT * FROM `uczniowie` WHERE nazwisko LIKE 'K%'
+SELECT * FROM `uczniowie` WHERE nazwisko LIKE '_i%a';
+SELECT DISTINCT miejscowosc FROM uczniowie ORDER BY miejscowosc;
+SELECT COUNT(*) AS chłopaki_fajne_z_łodzi FROM uczniowie WHERE miejscowosc = 'Łódź';
