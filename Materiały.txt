@@ -32,3 +32,4 @@ SELECT * FROM `auto` WHERE uwagi LIKE 'ga%'; żeby z uwag wyciagnac żeby auto b
 SELECT AVG(cena) AS srednia_samochodu FROM auto; wyliczyć srednia cene auta DS208# 
 SELECT typ FROM auto WHERE typ in ('sedan'); in pokazuje kolumny które sa sedanem 
 SELECT rocznik FROM auto WHERE rocznik in (1992, 1994);
+SELECT * FROM `uczniowie` WHERE miejscowosc IN ('Łódź','Warszawa','Kraków');
