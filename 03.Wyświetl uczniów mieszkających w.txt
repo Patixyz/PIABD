@@ -8,3 +8,5 @@
 10.Wyświetl wszystkie miejscowości bez powtórzeń 
 11.Wyświetl hobby, które wystepuja u co najmniej 10 uczniów
 12.Policz wszystkich uczniów z łodzi
+
+15.Policz uczniów urodzonych w poszczególnych latach
