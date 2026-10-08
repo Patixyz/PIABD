@@ -3,11 +3,23 @@
 2.Wybór bazy: use nazwabazy;
 
 3.Tworzenie bazy: create database nazwabazy;
-
+Usuwanie bazy danych drop database nazwabazy;
 4.Tworzenie tabeli: create table nazwatabeli;
-
+show tables: pokazywanie tabeli
 5.Pokazywanie zawartości tabeli: describe nazwatebeli;
-
+mysqladmin -uroot shutdown: polecenie wyłącza serwer
+Uruchomienie serwera mysql jako oddzielną aplikacje mysqld --console
+zatrzymanie uslugi netstop nazwa_usługi
+mysql -u root --password=hasło
+mysql -u root -phasło
+kończenie połączenia quit
+logowanie do serwera z wyborem bazy mysql -u nazwa_użytkownika -phasło nazwa_bazy
+create user nazwa identified by password 'hasło';
+usuwanie kąta użytkownika drop user nazwa, nazwa;
+rename user stara_nazwa to nowa_nazwa;
+set password for nazwa_użytkownika = password('hasło');
+nadawanie praw do konta użytkownika grant usage on* to nazwa_użytkownika;
+drugi sposob na zmiane hasła grant usage on * to nazwa identified by 'hasło';
 6.Komentarz w SQL /*komentarz*/
 
 7.Pomiędzy /*Between*/;
