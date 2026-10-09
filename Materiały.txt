@@ -20,6 +20,7 @@ rename user stara_nazwa to nowa_nazwa;
 set password for nazwa_użytkownika = password('hasło');
 nadawanie praw do konta użytkownika grant usage on* to nazwa_użytkownika;
 drugi sposob na zmiane hasła grant usage on * to nazwa identified by 'hasło';
+
 6.Komentarz w SQL /*komentarz*/
 
 7.Pomiędzy /*Between*/;
@@ -58,3 +59,8 @@ SELECT COUNT(*) FROM uczniowie WHERE hobby="informatyka";
 SELECT COUNT(*) FROM auto WHERE cena > 30000;
 SELECT SUM(cena) AS całkowita_wartość_aut FROM auto;
 SELECT AVG(cena) AS średnia_wartość_aut FROM auto;
+Pobieranie wierszy od konkretnej pozycji SELECT * FROM uczniowie ORDER BY nazwisko LIMIT 4, 3;
+usunięcie danych z tabelii delete from uczniowie;
+delete from nazwa_tabeli where id in 3, 5, 7
+delete from auto where auto_id between 1 and 10;
+delete from auto where paliwo='G';
