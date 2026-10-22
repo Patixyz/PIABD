@@ -70,3 +70,4 @@ SELECT imie, nazwisko, data_urodzenia FROM uczniowie WHERE MONTH(data_urodzenia)
 SELECT imie, nazwisko, data_urodzenia FROM uczniowie WHERE MONTH(data_urodzenia) IN (6, 12) ORDER BY data_urodzenia;
 SELECT imie, nazwisko, data_urodzenia, TIMESTAMPDIFF( YEAR, data_urodzenia, CURDATE() ) AS wiek FROM uczniowie ORDER BY wiek DESC;
 SELECT MIN(data_urodzenia) AS najstarszy, MAX(data_urodzenia) AS najmlodszy FROM uczniowie;
+SELECT imie, nazwisko, miejscowosc FROM uczniowie WHERE miejscowosc = ( SELECT miejscowosc FROM uczniowie GROUP BY miejscowosc ORDER BY COUNT(*) DESC, miejscowosc ASC LIMIT 1 ) ORDER BY nazwisko, imie;
