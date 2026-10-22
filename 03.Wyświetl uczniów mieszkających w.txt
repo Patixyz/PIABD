@@ -18,3 +18,7 @@
 25.Wyświetl uczniów których adres e-mail zawiera nazwisko kowalski
 28.Wyświetl najstarszego i najmłodszego ucznia według daty urodzenia (same daty)
 29.Wyświetl uczniow mieszkajacych w najlicznej reprezentowanej miejscowosci
+31.Wyświetl uczniów, których imię ma dokładnie 5 liter
+32.Wyświetl trzy ostatnie cyfry numeru telefonu każdego ucznia
+33.Wyświetl nazwiska uczniów zapisane małymi literami
+34.Wyświetl uczniów urodzonych w pierwszym kwartale roku
