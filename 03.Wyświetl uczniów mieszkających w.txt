@@ -14,3 +14,5 @@
 21.Wyświetl imie i nazwisko ucznia w jednej kolumnie
 22.Wyświetl imiona uczniów wielkimi literami
 23.Wyświetl uczniów urodzonych w czerwcu i w grudniu
+24.Oblicz wiek każdego ucznia
+25.Wyświetl uczniów których adres e-mail zawiera nazwisko kowalski
