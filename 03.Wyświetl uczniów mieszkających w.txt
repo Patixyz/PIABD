@@ -17,3 +17,4 @@
 24.Oblicz wiek każdego ucznia
 25.Wyświetl uczniów których adres e-mail zawiera nazwisko kowalski
 28.Wyświetl najstarszego i najmłodszego ucznia według daty urodzenia (same daty)
+29.Wyświetl uczniow mieszkajacych w najlicznej reprezentowanej miejscowosci
