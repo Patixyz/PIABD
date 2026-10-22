@@ -69,3 +69,4 @@ SELECT id, UPPER(imie) AS imie_duzymi_literami, nazwisko FROM uczniowie;
 SELECT imie, nazwisko, data_urodzenia FROM uczniowie WHERE MONTH(data_urodzenia) = 6 ORDER BY data_urodzenia;
 SELECT imie, nazwisko, data_urodzenia FROM uczniowie WHERE MONTH(data_urodzenia) IN (6, 12) ORDER BY data_urodzenia;
 SELECT imie, nazwisko, data_urodzenia, TIMESTAMPDIFF( YEAR, data_urodzenia, CURDATE() ) AS wiek FROM uczniowie ORDER BY wiek DESC;
+SELECT MIN(data_urodzenia) AS najstarszy, MAX(data_urodzenia) AS najmlodszy FROM uczniowie;
