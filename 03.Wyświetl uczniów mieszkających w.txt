@@ -10,3 +10,7 @@
 12.Policz wszystkich uczniów z łodzi
 
 15.Policz uczniów urodzonych w poszczególnych latach
+
+21.Wyświetl imie i nazwisko ucznia w jednej kolumnie
+22.Wyświetl imiona uczniów wielkimi literami
+23.Wyświetl uczniów urodzonych w czerwcu
