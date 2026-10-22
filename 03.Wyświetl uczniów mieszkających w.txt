@@ -13,4 +13,4 @@
 
 21.Wyświetl imie i nazwisko ucznia w jednej kolumnie
 22.Wyświetl imiona uczniów wielkimi literami
-23.Wyświetl uczniów urodzonych w czerwcu
+23.Wyświetl uczniów urodzonych w czerwcu i w grudniu
